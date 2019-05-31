@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Bethany Beach
+  link: /calendar
+- name: Photos
+  link: http://www.flickr.com/photos/65034617@N00/
+- name: Videos
+  link: /videos
+- name: Musings With Max
+  link: /musings

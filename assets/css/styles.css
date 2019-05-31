@@ -1,0 +1,103 @@
+#outer
+{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+#logo
+{
+    font-family: arial;
+    font-size: 50px;
+    line-height: 47px;
+    text-align: right;
+    color: #27408B;
+    width: 250px;
+    height: 500px;
+    padding-right: 10px;
+    border-right: 3px solid #27408B;
+    padding-left: 4px;
+    float: left;
+}
+
+#right_side
+{
+    width: 370px;
+    float: left;
+}
+
+#words
+{
+    float: left;
+    width: 360px;
+    padding-left: 10px;
+    font-family: arial;
+    font-size: 17px;
+    color: #27408B;
+}
+
+#links
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+
+}
+
+#links ul
+{
+    float: left;
+    clear: left;
+    margin: 0;
+    width: 171px;
+    padding: 0px;
+}
+
+#link_title
+{
+    background-color: #27408B;
+    color: white;
+    padding: 4px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    font-family: arial;
+    letter-spacing: 4px;
+}
+
+#links { list-style: none }
+
+#link_1
+{
+    border-top: 3px solid #27408B;
+}
+
+.current_link
+{
+    background-color: #27408B;
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    width: 190px;
+    float: left;
+    padding: 4px;
+    border-bottom: 3px solid #27408B;
+    border-right: 3px solid #27408B;
+}
+
+.other_link
+{
+    color: #27408B;
+    text-decoration: none;
+    font-family: arial;
+    width: 190px;
+    float: left;
+    padding: 4px;
+    border-bottom: 3px solid #27408B;
+    border-right: 3px solid #27408B;
+}
+
+#links li a:hover
+{
+    background-color: #FF6600;
+    color: white;
+}

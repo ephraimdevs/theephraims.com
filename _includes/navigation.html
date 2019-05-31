@@ -1,0 +1,14 @@
+<div id="right_side">
+  <ul id="links">
+    {% for item in site.data.navigation %}
+      {% if page.url == item.link %}
+        {% assign class = "current_link" %}
+      {% else %}
+        {% assign class = "other_link" %}
+      {% endif %}
+      <li>
+        <a href="{{ item.link | relative_url }}" id="link_{{ forloop.index }}" class="{{ class }}">{{ item.name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
